@@ -36,3 +36,12 @@ Network environment: Bridged adapter(Ensuring an appropriate connection is being
 This project highlights an integral phase of any security audit __**Enumeration**__ Identifying that the router is running services that we have names for, like dnsmasq 2.85 and apache, a security professional can cross-reference these with known CVEs in order to identify potential exploits. Additionally, the presence of UPnP and SMB services is evidence of an increased internal attack surface, which would absolutely require diligent patch and credential management. This project demonstrates an understanding of the importance of Enumeration in security auditing
 
 **6. Screenshots/Evidence**
+
+<p align="center">
+ <img src="Images/iproute.png" alt="IP route command" width="800">
+</p>
+
+
+
+
+
