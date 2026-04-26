@@ -24,7 +24,7 @@ Network environment: Bridged adapter(Ensuring an appropriate connection is being
   * ****Port 80/443(HTTP/S)**** Services running listed as apache httpd, this is likely hosting the web management interface.
   * ****Port 445(SMB)**** running Microsoft-DS, suggesting file sharing capabilities.
   * ****Port 49152/49153(UPnP)**** Identified as a Cisco-Linksys wireless access point. Linksys routers are the standard routers supplied by my ISP.
-* ***Hardware and Operating System ***
+* ***Hardware and Operating System***
     * The scan shows the hardware running the network gateway is manufactured by Belkin International
     * OS fingerprinted as Linux (Kernel 3.2-4.9)
     * The MAC address was also identified in the scan but has been redacted from the images.
