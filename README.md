@@ -25,7 +25,7 @@ Network environment: Bridged adapter(Ensuring an appropriate connection is being
   * ****Port 445(SMB)**** running Microsoft-DS, suggesting file sharing capabilities.
   * ****Port 49152/49153(UPnP)**** Identified as a Cisco-Linksys wireless access point. Linksys routers are the standard routers supplied by my ISP.
 * ***Hardware and Operating System ***
-    * The scan shows the hardware running the network gateway is made by Belkin International
+    * The scan shows the hardware running the network gateway is manufactured by Belkin International
     * OS fingerprinted as Linux (Kernel 3.2-4.9)
     * The MAC address was also identified in the scan but has been redacted from the images.
 * ***Topology*** Confirmed a network distance of 1 hop, Evidence of a direct connection to the gateway.
@@ -38,10 +38,22 @@ This project highlights an integral phase of any security audit __**Enumeration*
 **6. Screenshots/Evidence**
 
 <p align="center">
- <img src="Images/iproute.png" alt="IP route command" width="800">
+ <img src="Folder/iproute.png" alt="IP route command" width="800">
 </p>
 
+Screenshot of the parrot CLI showing the 'ip route command' in order to confirm the IP address of the target(default gateway)
 
+<p align="center">
+ <img src="Folder/SVscan.png" alt="SVscan" width="800">
+</p>
+
+Output using the '-sV' nmap function displaying DNS, Apache, and UPnP services
+
+<p align="center">
+ <img src="Folder/OS scan.png" alt="OS scan" width="800">
+</p>
+
+Scan using the '-O' Nmap function, which displays the target OS, in this case Linux, and the Belkin Industries hardware manufacturer.
 
 
 
